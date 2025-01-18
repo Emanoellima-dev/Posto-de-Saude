@@ -64,3 +64,6 @@ WHERE m.nome = 'Dr. João Silva';
 SELECT * FROM medicamentos
 WHERE validade < CURDATE() + INTERVAL 30 DAY;
 ```
+
+## Observações
+Este projeto foi feito apenas com o intuito de aprimorar meus conhecimentos em SQL. portanto não estou aceitando contribuições ao projeto no momento.
