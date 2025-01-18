@@ -14,3 +14,14 @@ Gerenciamento de Médicos: Registro de médicos, com CRM, especialidade e telefo
 Prescrição de Medicamentos: Cadastro de receitas médicas, vinculando medicamentos às consultas.
   - Solicitação de Exames: Registro de exames solicitados durante consultas, com resultados e datas relevantes.
   - Rastreio de Medicamentos: Informações sobre lotes, validade e fabricantes de medicamentos.
+
+## Estrutura do Banco de Dados
+O projeto inclui as seguintes tabelas principais:
+
+  - `Pacientes`: Gerencia os dados dos pacientes.
+  - `Médicos`: Registra os médicos e suas especialidades.
+  - `Consultas`: Liga médicos e pacientes, com dados sobre o atendimento.
+  - `Medicamentos`: Contém informações de medicamentos, como princípio ativo e validade.
+  - `Receitas Médicas`: Relaciona consultas e medicamentos, incluindo a posologia.
+  - `Exames`: Cadastro de exames disponíveis no posto de saúde.
+  - `Consultas_Exames`: Tabela intermediária para relacionar exames e consultas.
