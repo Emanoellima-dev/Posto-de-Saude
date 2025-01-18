@@ -2,6 +2,11 @@
 
 Este projeto acadêmico é um banco de dados para gerenciar as operações de um posto de saúde fictício. Ele inclui tabelas para pacientes, médicos, consultas, medicamentos, receitas médicas e exames, permitindo rastrear informações e melhorar a organização do atendimento.
 
+## Tecnologias Utilizadas
+  - Banco de Dados: MySQL
+  - Linguagem: SQL
+  - Ferramentas de Gerenciamento: MySQL Workbench
+
 ## Funcionalidades
   - Gerenciamento de Pacientes: Cadastro de informações pessoais, como nome, CPF, endereço e telefone.
 Gerenciamento de Médicos: Registro de médicos, com CRM, especialidade e telefone.
