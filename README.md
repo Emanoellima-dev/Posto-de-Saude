@@ -43,3 +43,24 @@ mysql -u seu_usuario -p < posto_de_saude.sql
 4. Acesse o Banco de Dados
 
 Utilize uma ferramenta como MySQL Workbench, DBeaver ou linha de comando para explorar as tabelas e realizar consultas
+
+## Exemplos de Consultas SQL
+Aqui estão alguns exemplos de consultas para usar com este banco de dados:
+
+1. Listar todos os pacientes:
+```bash
+SELECT * FROM pacientes;
+```
+1. Consultas realizadas por um médico específico:
+```bash
+SELECT c.id, c.data_hora, p.nome AS paciente, m.nome AS medico
+FROM consultas c
+JOIN pacientes p ON c.paciente_id = p.id
+JOIN medicos m ON c.medico_id = m.id
+WHERE m.nome = 'Dr. João Silva';
+```
+3. Medicamentos próximos da validade:
+```bash
+SELECT * FROM medicamentos
+WHERE validade < CURDATE() + INTERVAL 30 DAY;
+```
