@@ -30,8 +30,8 @@ O projeto inclui as seguintes tabelas principais:
 1. Clone o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https://github.com/Emanoellima-dev/Posto-de-Saude
+cd Posto-de-saude
 ```
 2. Importe o Banco de Dados
 
